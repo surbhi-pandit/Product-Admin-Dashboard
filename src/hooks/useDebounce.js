@@ -1,5 +1,3 @@
-// src/hooks/useDebounce.js
-
 import { useState, useEffect } from 'react'
 
 // This hook takes a fast-changing value (like search input text) and returns a "delayed" version of it that only updates after the value has stopped changing for `delay` milliseconds.

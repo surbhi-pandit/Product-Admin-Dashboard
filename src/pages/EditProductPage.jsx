@@ -1,5 +1,3 @@
-// src/pages/EditProductPage.jsx
-
 import { useState, useEffect } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 import { getProductById, updateProduct } from '../api/productsApi'
