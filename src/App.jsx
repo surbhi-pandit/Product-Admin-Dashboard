@@ -16,6 +16,7 @@ function App() {
       <Navbar/>
       <Routes>
         {/* Public route - anyone can access login */}
+        <Route path="/" element={<Navigate to="/login" replace />} />
         <Route path="/login" element={<PublicRoute> <LoginPage /> </PublicRoute>} />
 
           
